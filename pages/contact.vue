@@ -16,7 +16,7 @@ useSeoMeta({
           <p class="hero__eyebrow">Contact</p>
           <h1>Get in Touch</h1>
           <p class="hero__lead">
-            For nutrition consultations, wellness talks, meal planning, product nutrient analysis, or collaborations, you may book through SeriousMD or send an inquiry.
+            For nutrition consultations, wellness talks, meal planning, product nutrient analysis, or collaborations, you may book through SeriousMD or send an inquiry at macylopez.nutrition@gmail.com
           </p>
           <div class="button-row">
             <PrimaryButton :href="bookingUrl" external>Book Consultation via SeriousMD</PrimaryButton>
@@ -37,7 +37,7 @@ useSeoMeta({
           <SectionHeading
             eyebrow="Inquiry form"
             title="Send a message for consultations or collaboration inquiries."
-            description="Share a few details and your preferred contact method. The form is prepared for future backend integration."
+            description="Share a few details and your preferred contact method."
           />
           <ContactForm />
           <div class="contact-socials">
