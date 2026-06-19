@@ -9,7 +9,12 @@ const currentYear = new Date().getFullYear()
       <div class="app-footer__brand">
         <p class="brand__name">Mary Clarice Lopez, RND</p>
         <p class="app-footer__subtitle">Registered Nutritionist-Dietitian</p>
-        <p class="app-footer__subtitle">{PRC License No: XXX-XXXXX}</p>
+        <div class="app-footer__contacts">
+          <p><span>Email:</span> <a href="mailto:macylopez.nutrition@gmail.com">macylopez.nutrition@gmail.com</a></p>
+          <p><span>Facebook:</span> Macy Lopez, RND</p>
+          <p><span>Instagram / TikTok / YouTube:</span> macythedietitian</p>
+        </div>
+       
       </div>
 
       <nav class="app-footer__nav" aria-label="Footer">

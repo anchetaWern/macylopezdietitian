@@ -20,7 +20,7 @@ useSeoMeta({
           </p>
           <div class="button-row">
             <PrimaryButton :href="bookingUrl" external>Book Consultation via SeriousMD</PrimaryButton>
-            <PrimaryButton to="#contact-form" variant="outline">Contact Form</PrimaryButton>
+            <PrimaryButton to="#social-media" variant="outline">Social Media</PrimaryButton>
           </div>
         </div>
         <PlaceholderMedia
@@ -31,19 +31,15 @@ useSeoMeta({
       </div>
     </section>
 
-    <section id="contact-form" class="section">
+    <section id="social-media" class="section">
       <div class="container contact-layout">
         <div class="card card--contact-intro">
           <SectionHeading
-            eyebrow="Inquiry form"
-            title="Send a message for consultations or collaboration inquiries."
-            description="Share a few details and your preferred contact method."
+            eyebrow="Social media"
+            title="Connect on social media"
+            description="Follow Mary Clarice Lopez, RND for updates, tips, and professional nutrition content."
           />
-          <ContactForm />
-          <div class="contact-socials">
-            <p class="contact-socials__title">Connect on social media</p>
-            <SocialLinks show-labels />
-          </div>
+          <SocialLinks show-labels />
         </div>
 
         <aside class="card card--collaboration">

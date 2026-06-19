@@ -16,32 +16,20 @@ const trustHighlights = [
 
 const services = [
   {
-    title: 'Diabetes Education',
-    description: 'Nutrition guidance to support blood sugar management and long-term health.'
+    title: 'Nutrition Counseling',
+    description: 'Personalized guidance to support health goals, daily habits, and sustainable nutrition changes.'
   },
   {
-    title: 'Geriatric Nutrition',
-    description: 'Nutrition support for older adults to help maintain strength, nourishment, and quality of life.'
+    title: 'Nutrition Analysis',
+    description: 'Detailed review of meals, products, or menus to identify nutrients and support informed decisions.'
   },
   {
-    title: 'Neurodivergent Nutrition',
-    description: 'Personalized nutrition support for individuals with unique eating patterns, sensory preferences, or feeding challenges.'
+    title: 'Content Creation',
+    description: 'Evidence-based nutrition content for campaigns, educational materials, and digital platforms.'
   },
   {
-    title: 'Pediatric Nutrition',
-    description: 'Nutrition counseling for children and families, including support for growth, food choices, and healthy routines.'
-  },
-  {
-    title: 'Pre and Postpartum Nutrition',
-    description: 'Guidance for nutrition before, during, and after pregnancy.'
-  },
-  {
-    title: 'Weight Management',
-    description: 'Support for sustainable weight loss, weight gain, or weight maintenance through realistic lifestyle strategies.'
-  },
-  {
-    title: 'Women’s Nutrition and Wellness',
-    description: 'Nutrition support for women’s health, wellness, and different life stages.'
+    title: 'Community / Public Health Nutrition',
+    description: 'Nutrition support for programs and outreach that promote healthier communities and public wellbeing.'
   }
 ]
 
@@ -64,8 +52,7 @@ const consultationSteps = [
 const credentials = [
   'Registered Nutritionist-Dietitian',
   'BS Nutrition and Dietetics',
-  'Cum Laude',
-  'Polytechnic University of the Philippines'
+  'Polytechnic University of the Philippines (Cum Laude)'
 ]
 
 const experiences = [
