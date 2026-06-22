@@ -23,9 +23,14 @@ useSeoMeta({
           </p>
         </div>
         <PlaceholderMedia
-          src="/images/rnd-about.jpg"
-          alt="Mary Clarice Lopez, dietitian portrait"
-          label="Professional dietitian portrait placeholder"
+          src="/images/mary-clarice-portrait-720.jpg"
+          srcset="/images/mary-clarice-portrait-480.jpg 480w, /images/mary-clarice-portrait-720.jpg 720w, /images/mary-clarice-portrait-960.jpg 960w"
+          webp-srcset="/images/mary-clarice-portrait-480.webp 480w, /images/mary-clarice-portrait-720.webp 720w, /images/mary-clarice-portrait-960.webp 960w"
+          sizes="(max-width: 768px) 92vw, (max-width: 1200px) 44vw, 540px"
+          width="720"
+          height="1080"
+          alt="Mary Clarice Lopez smiling outdoors"
+          label="Portrait of Mary Clarice Lopez"
         />
       </div>
     </section>

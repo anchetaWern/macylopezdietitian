@@ -260,6 +260,12 @@ textarea {
   background: rgba(255, 255, 255, 0.32);
 }
 
+.placeholder-media--image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .placeholder-media--landscape {
   min-height: 320px;
 }
